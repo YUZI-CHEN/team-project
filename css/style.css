@@ -95,6 +95,7 @@ main {
 body {
   font-family: sans-serif;
   line-height: 1.2;
+  background-image: url(../images/background.png);
 }
 
 /* 重置標題字重 */
@@ -141,6 +142,7 @@ a {
 #topbar .logo {
   width: 238px;
   height: 76px;
+  margin: 0 20px;
 }
 #topbar .navigation {
   display: flex;
@@ -149,7 +151,7 @@ a {
 }
 #topbar .navigation .menu {
   display: flex;
-  padding: 0 35px;
+  padding: 0 200px;
 }
 #topbar .navigation .menu a {
   font-size: 18px;
@@ -169,6 +171,7 @@ body {
   margin-top: 102px;
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 1000px;
   height: 800px;
 }
@@ -179,10 +182,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* 左邊輸入區 */
+  /* 右邊連結區 */
 }
 #center-box .input {
   width: 450px;
   margin: 0 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 #center-box .input .decorate {
   text-align: center;
@@ -199,21 +207,25 @@ body {
   font-size: 24px;
 }
 #center-box .input .input-box {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 19px 0;
+  width: 280px;
+  margin: 30px;
 }
 #center-box .input .input-box label {
+  display: block;
   width: 280px;
-  padding: 10px 0;
+  margin-bottom: 10px;
 }
 #center-box .input .input-box input {
   width: 280px;
-  padding: 5px 0;
+  padding: 8px 0;
+  border: none;
+  background-color: #CDB17E;
+  margin-bottom: 10px;
 }
 #center-box .input .input-box a {
   margin-top: 5px;
+  align-self: flex-start;
+  /* 靠左對齊 */
 }
 #center-box .input .btn-in {
   text-align: center;
@@ -228,15 +240,49 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 #center-box .link-box .bg {
   position: relative;
   width: 450px;
   height: 215px;
 }
+#center-box .link-box .bg img {
+  width: 100%;
+}
 #center-box .link-box .bg .p-link {
   position: absolute;
-  text-align: center;
-  left: 170px;
+  left: 150px;
   top: 100px;
+  text-align: center;
+}
+#center-box .link-box .bg .p-link p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#center-box .link-box .bg .p-link .link-p {
+  display: flex;
+  /* 使用 Flexbox */
+  align-items: center;
+  /* 垂直對齊（如果需要） */
+  gap: 3px;
+  /* 調整元素間距 */
+  text-align: center;
+}
+#center-box .link-box .bg .p-link .link-p a {
+  width: 36px;
+  padding: 0;
+  /* 去除內邊距 */
+  margin: 0;
+  /* 去除外邊距 */
+}
+#center-box .link-box .bg p {
+  font-size: 14px;
+}
+
+/* 背景插圖 */
+.img01 {
+  position: absolute;
+  left: 150px;
+  transform: translateY(10px);
 }/*# sourceMappingURL=style.css.map */
