@@ -230,9 +230,13 @@ body {
 #center-box .input .btn-in {
   text-align: center;
 }
-#center-box .input .btn-in button {
-  width: 120px;
-  height: 35px;
+#center-box .input .btn-in input[type=button] {
+  background-image: url("../images/btn-3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 150px;
+  height: 45px;
 }
 #center-box .link-box {
   width: 450px;

@@ -95,7 +95,7 @@ body {
   font-family: sans-serif;
   line-height: 1.2;
   background-image: url(../images/background.png);
- 
+
 }
 
 /* 重置標題字重 */
@@ -271,11 +271,27 @@ body {
 
     .btn-in {
       text-align: center;
+     
 
-      button {
-        width: 120px;
-        height: 35px;
+      input[type=button]{
+        background-image: url('../images/btn-3.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        
+        width: 150px;
+        height: 45px;
       }
+
+
+      // button {
+      //   background-image: url('../images/btn-3.png');
+      //   background-repeat: no-repeat;
+      //   background-size: contain, cover;
+      //   width: 120px;
+      //   height: 35px;
+        
+      // }
 
     }
 
@@ -353,8 +369,9 @@ body {
   height: 600px;
   left: 40px;
   bottom: 20px;
- 
+
 }
+
 /* 左上膠帶 */
 .img02 {
   position: absolute;
@@ -365,6 +382,7 @@ body {
   transform: rotate(-80deg);
 
 }
+
 /* 右下膠帶 */
 .img02-1 {
   position: absolute;
@@ -374,6 +392,7 @@ body {
   bottom: 100px;
   transform: rotate(-65deg);
 }
+
 /* 左下蠟印 */
 .img03 {
   position: absolute;
@@ -381,6 +400,7 @@ body {
   bottom: 85px;
 
 }
+
 /* 右上飛機 */
 .img04 {
   position: absolute;
@@ -390,6 +410,7 @@ body {
   right: 320px;
   transform: rotate(8deg);
 }
+
 /* 右上印章 */
 .img05 {
   position: absolute;
@@ -398,10 +419,11 @@ body {
   right: 400px;
   top: 130px;
   transform: rotate(-10deg);
-  
+
 }
+
 /* 左下印章 */
-.img06{
+.img06 {
   position: absolute;
   width: 120px;
   height: 100px;
@@ -410,7 +432,8 @@ body {
   transform: rotate(35deg);
 
 }
-footer{
+
+footer {
   position: absolute;
   width: 100%;
   height: 60px;
@@ -420,6 +443,6 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-    
- 
-} 
+
+
+}
