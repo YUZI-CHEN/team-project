@@ -167,13 +167,13 @@ body {
 
 /*center-box輸入區  */
 #member {
-  background-image: url("../images/p4-papers-3.jpg");
+  background-image: url("../images/p2-papers-3.jpg");
   margin-top: 102px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1000px;
-  height: 800px;
+  height: 750px;
 }
 
 #center-box {
@@ -281,8 +281,79 @@ body {
 }
 
 /* 背景插圖 */
+/* 花 */
 .img01 {
   position: absolute;
-  left: 150px;
-  transform: translateY(10px);
+  width: 450px;
+  height: 600px;
+  left: 40px;
+  bottom: 20px;
+}
+
+/* 左上膠帶 */
+.img02 {
+  position: absolute;
+  width: 250px;
+  height: 120px;
+  left: 350px;
+  top: 90px;
+  transform: rotate(-80deg);
+}
+
+/* 右下膠帶 */
+.img02-1 {
+  position: absolute;
+  width: 270px;
+  height: 120px;
+  right: 400px;
+  bottom: 100px;
+  transform: rotate(-65deg);
+}
+
+/* 左下蠟印 */
+.img03 {
+  position: absolute;
+  left: 400px;
+  bottom: 85px;
+}
+
+/* 右上飛機 */
+.img04 {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  top: 130px;
+  right: 320px;
+  transform: rotate(8deg);
+}
+
+/* 右上印章 */
+.img05 {
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  right: 400px;
+  top: 130px;
+  transform: rotate(-10deg);
+}
+
+/* 左下印章 */
+.img06 {
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  bottom: 170px;
+  right: 385px;
+  transform: rotate(35deg);
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  background-color: #E2CA9E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
