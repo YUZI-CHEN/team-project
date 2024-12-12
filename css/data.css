@@ -156,4 +156,64 @@ a {
 #topbar .navigation .menu a {
   font-size: 18px;
   padding: 0 20px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* 左上區塊 */
+#about-box {
+  position: absolute;
+  background-image: url("../images/p4-papers-2.jpg");
+  width: 700px;
+  height: 430px;
+  background-position: 0 50%;
+  top: 130px;
+  left: 122px;
+  display: flex;
+  /* 郵票圖 */
+  /* 照片外框 */
+  /* 個人照片 */
+}
+#about-box img {
+  width: 106px;
+  height: 146px;
+  margin: 5px;
+}
+#about-box .frame {
+  z-index: 999;
+  padding: 10px 0;
+}
+#about-box .frame img {
+  width: 290px;
+  height: 265px;
+  transform: rotate(90deg);
+}
+#about-box .person-pt {
+  position: absolute;
+  left: 216px;
+  top: 7px;
+  padding: 10px 0;
+}
+#about-box .person-pt img {
+  width: 150px;
+  height: 250px;
+}
+#about-box .person-id {
+  position: absolute;
+  left: 200px;
+  top: 300px;
+  width: 180px;
+  height: 90px;
+  background-image: url("../images/small_paper.png");
+  background-size: 100%;
+}
+#about-box .person-id p {
+  position: absolute;
+  font-size: 18px;
+  top: 40%;
+  left: 15%;
 }/*# sourceMappingURL=data.css.map */
