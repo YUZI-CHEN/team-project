@@ -97,6 +97,7 @@ body {
   line-height: 1.2;
   background-image: url(../images/background.png);
 
+
 }
 
 /* 重置標題字重 */
@@ -134,7 +135,6 @@ a {
 
 /* 首頁區 */
 #topbar {
-
   position: fixed;
   top: 0;
   left: 0;
@@ -143,8 +143,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
 
   .logo {
     width: 238px;
@@ -178,87 +176,117 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column ;
-  
-  
+  flex-direction: column;
 
+  background-size: cover;
 
+  // 固定背
+  background-attachment: fixed;
 
-  #finish-box {
+  h2 {
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 2.5;
+    color: #8A5D3B;
+    font-weight: bold;
+  }
 
-    width: 780px;
+  #email-box {
+
+    width: 830px;
     height: 480px;
     position: relative;
-    img{
+
+    img {
       width: 100%;
       height: 100%;
     }
 
-    .content{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-     
-      img{
-        position:absolute;
-          width: 150px;
-          height: 150px;
-          top: 65px;
-          left: 310px;
-    
-      }
-      .content-p{
-        text-align: center;
+    .input-email {
+
+
+      #email {
         position: absolute;
-        top: 250px;
-        p{
-          font-size: 24px;
-          color: #464646;
-          margin: 20px 0;
-          letter-spacing: 3px;
-        }
-
-
+        top: 150px;
+        left: 155px;
+        width: 500px;
+        height: 50px;
+        font-size: 18px;
+        background-color: #CDB17E;
+        border: none;
+        text-align: center;
       }
+
+      #sure-btn {
+        position: absolute;
+        top: 280px;
+        left: 335px;
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+        background-color: #CDB17E;
+        border: none;
+        cursor: pointer;
+      }
+
+      input:focus {
+        outline: none;
+        border-color: #fff;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(109, 52, 20, 0.486);
+      }
+
     }
-    
   }
- p{
-  font-size: 16px;
-  color:#464646;
-  letter-spacing: 2px;
- }
 }
-/* 裝飾背景 */
-/* 左下印章 */
-.img01{
-  position: absolute;
 
+/* 背景插圖 */
+
+
+.img01 {
+  position: absolute;
+  width: 600px;
+  height: 450px;
+  left: 0;
+  bottom: 0;
+}
+
+.img02 {
+  position: absolute;
+  width: 480px;
+  height: 400px;
+  left: 100px;
+  top: 380px;
+}
+
+.img03 {
+  position: absolute;
   width: 120px;
-  height: 120px;
-  bottom: 320px;
-  left: 600px;
+  height: 100px;
+  bottom: 250px;
+  right: 530px;
+  transform: rotate(-5deg);
 
 }
-/* 右上飛機 */
-.img02{
+.img04{
   position: absolute;
- 
-  width: 300px;
-  height: 250px;
-  top: 225px;
-  right: 555px;
-  transform: rotate(12deg);
-    
+  width: 320px;
+  height: 320px;
+  right: 260px;
+  top: 250px;
+
+  transform: rotate(15deg);
+  
 }
-/* 右上迴紋針 */
-.img03{
+
+.img05{
   position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 200px;
-  right: 695px;
+  width: 280px;
+  height: 280px;
+  right: 165px;
+  top: 175px;
 }
+
 
 footer {
 
@@ -271,7 +299,7 @@ footer {
   background-color: #E2CA9E;
   width: 100%;
   height: 65px;
- 
+
   letter-spacing: 3px;
   color: #000;
 }

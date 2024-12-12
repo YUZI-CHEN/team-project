@@ -165,72 +165,95 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-size: cover;
+  background-attachment: fixed;
 }
-main #finish-box {
-  width: 780px;
+main h2 {
+  font-size: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  line-height: 2.5;
+  color: #8A5D3B;
+  font-weight: bold;
+}
+main #email-box {
+  width: 830px;
   height: 480px;
   position: relative;
 }
-main #finish-box img {
+main #email-box img {
   width: 100%;
   height: 100%;
 }
-main #finish-box .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main #finish-box .content img {
+main #email-box .input-email #email {
   position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 65px;
-  left: 310px;
-}
-main #finish-box .content .content-p {
+  top: 150px;
+  left: 155px;
+  width: 500px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #CDB17E;
+  border: none;
   text-align: center;
+}
+main #email-box .input-email #sure-btn {
   position: absolute;
-  top: 250px;
+  top: 280px;
+  left: 335px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #CDB17E;
+  border: none;
+  cursor: pointer;
 }
-main #finish-box .content .content-p p {
-  font-size: 24px;
-  color: #464646;
-  margin: 20px 0;
-  letter-spacing: 3px;
-}
-main p {
-  font-size: 16px;
-  color: #464646;
-  letter-spacing: 2px;
+main #email-box .input-email input:focus {
+  outline: none;
+  border-color: #fff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(109, 52, 20, 0.486);
 }
 
-/* 裝飾背景 */
-/* 左下印章 */
+/* 背景插圖 */
 .img01 {
   position: absolute;
-  width: 120px;
-  height: 120px;
-  bottom: 320px;
-  left: 600px;
+  width: 600px;
+  height: 450px;
+  left: 0;
+  bottom: 0;
 }
 
-/* 右上飛機 */
 .img02 {
   position: absolute;
-  width: 300px;
-  height: 250px;
-  top: 225px;
-  right: 555px;
-  transform: rotate(12deg);
+  width: 480px;
+  height: 400px;
+  left: 100px;
+  top: 380px;
 }
 
-/* 右上迴紋針 */
 .img03 {
   position: absolute;
-  width: 100px;
+  width: 120px;
   height: 100px;
-  top: 200px;
-  right: 695px;
+  bottom: 250px;
+  right: 530px;
+  transform: rotate(-5deg);
+}
+
+.img04 {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  right: 260px;
+  top: 250px;
+  transform: rotate(15deg);
+}
+
+.img05 {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  right: 165px;
+  top: 175px;
 }
 
 footer {
@@ -245,4 +268,4 @@ footer {
   height: 65px;
   letter-spacing: 3px;
   color: #000;
-}/*# sourceMappingURL=finish.css.map */
+}/*# sourceMappingURL=r-p.css.map */
