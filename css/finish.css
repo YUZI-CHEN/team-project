@@ -167,7 +167,7 @@ main {
   flex-direction: column;
 }
 main #finish-box {
-  width: 700px;
+  width: 780px;
   height: 480px;
   position: relative;
 }
@@ -185,7 +185,7 @@ main #finish-box .content img {
   width: 150px;
   height: 150px;
   top: 65px;
-  left: 280px;
+  left: 310px;
 }
 main #finish-box .content .content-p {
   text-align: center;
@@ -219,9 +219,9 @@ main p {
   position: absolute;
   width: 300px;
   height: 250px;
-  top: 230px;
+  top: 225px;
   right: 555px;
-  transform: rotate(8deg);
+  transform: rotate(12deg);
 }
 
 /* 右上迴紋針 */
@@ -229,6 +229,6 @@ main p {
   position: absolute;
   width: 100px;
   height: 100px;
-  top: 205px;
-  right: 700px;
+  top: 200px;
+  right: 695px;
 }/*# sourceMappingURL=finish.css.map */
