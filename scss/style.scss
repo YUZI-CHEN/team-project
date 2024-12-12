@@ -97,6 +97,7 @@ body {
   font-family: "Noto Sans TC", serif;
   line-height: 1.2;
   background-image: url(../images/background.png);
+ 
 
 }
 
@@ -174,6 +175,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width:auto;
 
 
   }
@@ -186,6 +188,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+  
 
     width: 1000px;
     height: 750px;
@@ -367,6 +370,7 @@ a {
     height: 600px;
     left: 40px;
     bottom: 20px;
+  
 
   }
 
@@ -378,7 +382,7 @@ a {
     left: 350px;
     top: 90px;
     transform: rotate(-80deg);
-
+    
   }
 
   /* 右下膠帶 */
@@ -389,6 +393,7 @@ a {
     right: 400px;
     bottom: 100px;
     transform: rotate(-65deg);
+  
   }
 
   /* 左下蠟印 */
@@ -396,6 +401,7 @@ a {
     position: absolute;
     left: 400px;
     bottom: 85px;
+   
 
   }
 
@@ -407,6 +413,8 @@ a {
     top: 130px;
     right: 320px;
     transform: rotate(8deg);
+    
+   
   }
 
   /* 右上印章 */
@@ -417,18 +425,20 @@ a {
     right: 400px;
     top: 130px;
     transform: rotate(-10deg);
+   
 
   }
 
   /* 左下印章 */
   .img06 {
     position: absolute;
+    
     width: 120px;
     height: 100px;
     bottom: 170px;
     right: 385px;
     transform: rotate(35deg);
-
+    
   }
 
   footer {
