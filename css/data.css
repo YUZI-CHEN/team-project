@@ -317,6 +317,11 @@ main {
   left: 280px;
   bottom: 180px;
 }
+#postcard p {
+  font-size: 18px;
+  color: #464646;
+  letter-spacing: 5px;
+}
 #postcard .pc-img01 {
   position: relative;
   margin-left: 50px;
@@ -364,4 +369,18 @@ main {
   width: 230px;
   height: 80px;
   z-index: -1;
+}
+
+footer {
+  display: inline-block;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0px;
+  background-color: #E2CA9E;
+  width: 100%;
+  height: 65px;
+  letter-spacing: 3px;
+  color: #000;
 }/*# sourceMappingURL=data.css.map */
