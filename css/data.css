@@ -214,9 +214,10 @@ main {
 }
 #about-box .person-id p {
   position: absolute;
-  font-size: 18px;
+  font-size: 16px;
   top: 40%;
   left: 15%;
+  color: #464646;
 }
 
 /* 個人照片右邊內容區塊 */
@@ -313,7 +314,7 @@ main {
   position: absolute;
   display: flex;
   align-items: center;
-  left: 200px;
+  left: 280px;
   bottom: 180px;
 }
 #postcard .pc-img01 {
