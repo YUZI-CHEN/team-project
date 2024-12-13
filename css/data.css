@@ -168,15 +168,16 @@ main {
 #about-box {
   position: absolute;
   background-image: url("../images/p4-papers-2.jpg");
-  width: 700px;
+  width: 750px;
   height: 430px;
-  background-position: 0 50%;
+  background-position: 10% 50%;
   top: 130px;
-  left: 122px;
+  left: 200px;
   display: flex;
   /* 郵票圖 */
   /* 照片外框 */
   /* 個人照片 */
+  /* 個人照片下的id */
 }
 #about-box img {
   width: 106px;
@@ -216,4 +217,150 @@ main {
   font-size: 18px;
   top: 40%;
   left: 15%;
+}
+
+/* 個人照片右邊內容區塊 */
+#p-content {
+  margin-top: 30px;
+  /* 地區 */
+  /* 收件 */
+  /* 寄件 */
+  /* 地區、收件、寄件內容區塊的設計 */
+}
+#p-content .p01 {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+#p-content .p01 img {
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+}
+#p-content .p02 {
+  display: flex;
+  margin: 30px 0;
+}
+#p-content .p02 img {
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+}
+#p-content .p03 {
+  display: flex;
+  margin: 30px 0;
+}
+#p-content .p03 img {
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+}
+#p-content .p-box {
+  background-image: url("../images/btn-1.jpg");
+  background-size: contain;
+  margin: 5px 20px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+}
+#p-content .p-box p {
+  height: 100%;
+  line-height: 40px;
+  font-size: 18px;
+  color: #464646;
+}
+
+/*  最右邊關於我的內容區塊 */
+#about-content {
+  position: absolute;
+  right: 250px;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+#about-content .item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#about-content .item img {
+  margin: 0 20px;
+  width: 60px;
+  height: 60px;
+}
+#about-content .item-content {
+  position: relative;
+  background-image: url("../images/p4-papers-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 350px;
+}
+#about-content .item-content p {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  top: 20%;
+  left: 15%;
+  font-size: 18px;
+  color: #464646;
+  letter-spacing: 10px;
+  line-height: 40px;
+}
+
+/* 下方明信片區塊 */
+#postcard {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 200px;
+  bottom: 180px;
+}
+#postcard .pc-img01 {
+  position: relative;
+  margin-left: 50px;
+}
+#postcard .pc-img01 .pc-frame {
+  width: 280px;
+  height: 150px;
+}
+#postcard .pc-img01 .pcs {
+  position: absolute;
+  bottom: 35%;
+  left: 9%;
+  width: 230px;
+  height: 80px;
+  z-index: -1;
+}
+#postcard .pc-img02 {
+  position: relative;
+  margin-left: 100px;
+}
+#postcard .pc-img02 .pc-frame {
+  width: 280px;
+  height: 150px;
+}
+#postcard .pc-img02 .pcs {
+  position: absolute;
+  bottom: 35%;
+  left: 9%;
+  width: 230px;
+  height: 80px;
+  z-index: -1;
+}
+#postcard .pc-img03 {
+  position: relative;
+  margin-left: 100px;
+}
+#postcard .pc-img03 .pc-frame {
+  width: 280px;
+  height: 150px;
+}
+#postcard .pc-img03 .pcs {
+  position: absolute;
+  bottom: 35%;
+  left: 9%;
+  width: 230px;
+  height: 80px;
+  z-index: -1;
 }/*# sourceMappingURL=data.css.map */
