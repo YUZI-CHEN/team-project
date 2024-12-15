@@ -159,13 +159,13 @@ a {
 }
 
 main {
-  height: 836px;
-  margin: 80px 200px;
+  height: 100%;
+  width: 100%;
 }
 main article {
   display: flex;
   margin-top: 150px;
-  margin-left: 86px;
+  margin-left: 300px;
   color: #8A5D3B;
   font-size: 22px;
   letter-spacing: 3px;
@@ -176,8 +176,8 @@ main article {
 #member-form {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
-  margin-left: 84px;
+  margin-top: 10px;
+  margin-left: 300px;
   letter-spacing: 3px;
   /* 表單內容 */
   /* 打勾 */
