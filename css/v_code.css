@@ -242,6 +242,7 @@ main #v-code #sure-btn {
   background-color: #CDB17E;
   border: none;
   cursor: pointer;
+  color: #464646;
 }
 main #v-code input:focus {
   outline: none;
