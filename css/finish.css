@@ -204,6 +204,37 @@ main p {
   letter-spacing: 2px;
 }
 
+#ck-animation {
+  position: absolute;
+  top: 70px;
+}
+#ck-animation .circle {
+  stroke-dasharray: 1194;
+  stroke-dashoffset: 1194;
+  transition: stroke-dashoffset 2s ease;
+}
+#ck-animation .tick {
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  transition: stroke-dashoffset 1s ease 2s;
+}
+@keyframes circle {
+  from {
+    stroke-dashoffset: 1194;
+  }
+  to {
+    stroke-dashoffset: 2388;
+  }
+}
+@keyframes tick {
+  from {
+    stroke-dashoffset: 350;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 /* 裝飾背景 */
 /* 左下印章 */
 .img01 {
