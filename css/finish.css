@@ -216,7 +216,7 @@ main p {
 #ck-animation .tick {
   stroke-dasharray: 350;
   stroke-dashoffset: 350;
-  transition: stroke-dashoffset 1s ease 2s;
+  transition: stroke-dashoffset 1s ease 0.8s;
 }
 @keyframes circle {
   from {
