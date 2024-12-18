@@ -154,8 +154,15 @@ a {
   padding: 0 200px;
 }
 #topbar .navigation .menu a {
-  font-size: 18px;
-  padding: 0 20px;
+  margin: 15px;
+  padding: 7px 0 5px;
+  border-bottom: 2px solid transparent;
+  transition: 0.4s;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.3);
+}
+#topbar .navigation .menu a:hover {
+  color: #00ff88;
+  border-bottom: 2px solid transparent;
 }
 
 main {
