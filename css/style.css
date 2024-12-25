@@ -130,9 +130,15 @@ a {
 }
 
 /* reset end */
+/* main區 */
+main {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+
 /* 首頁區 */
 #topbar {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -166,25 +172,42 @@ a {
   border-bottom: 2px solid transparent;
 }
 
-/* main區 */
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: auto;
+@media (max-width: 1023px) {
+  #topbar .navigation {
+    display: flex;
+  }
+  #topbar .navigation .menu {
+    padding: 0 20px;
+  }
 }
-
 /*center-box輸入區  */
 #member {
   background-image: url("../images/p4-papers-4.png");
-  margin-top: 102px;
+  left: 50vh;
+  margin-top: 30px;
+  margin-bottom: 82px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1000px;
-  height: 750px;
+  height: 700px;
 }
 
+@media (max-width: 1023px) {
+  #member {
+    margin-top: 90px;
+    margin-bottom: 112px;
+    width: 568px;
+    height: 837px;
+  }
+  #center-box {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  #d-img {
+    display: none;
+  }
+}
 #center-box {
   height: 581px;
   width: 950px;
@@ -249,7 +272,7 @@ body {
   text-align: center;
 }
 #center-box .input .btn-in button {
-  background-image: url("../images/btn-1.jpg");
+  background-image: url("../images/btn-4.svg");
   background-size: 80%;
   border: 0px;
   width: 120px;
@@ -304,14 +327,42 @@ body {
   font-size: 14px;
 }
 
+@media (max-width: 1023px) {
+  #center-box .input .input-box {
+    width: auto;
+  }
+  #center-box .input .input-box label {
+    font-size: 18px;
+    padding: 5px 0;
+  }
+  #center-box .input .input-box input {
+    width: 450px;
+    height: 45px;
+  }
+  #center-box .input .btn-in {
+    margin-bottom: 20px;
+  }
+  #center-box .input .btn-in button {
+    width: 150px;
+    height: 50px;
+  }
+  #center-box .link-box .bg {
+    width: 400px;
+    height: 230px;
+  }
+  #center-box .link-box .bg .p-link {
+    top: 90px;
+    left: 130px;
+  }
+}
 /* 背景插圖 */
 /* 花 */
 .img01 {
   position: absolute;
   width: 450px;
-  height: 600px;
+  height: 500px;
   left: 40px;
-  bottom: 20px;
+  bottom: 100px;
 }
 
 /* 左上膠帶 */
@@ -320,7 +371,7 @@ body {
   width: 250px;
   height: 120px;
   left: 350px;
-  top: 90px;
+  top: 110px;
   transform: rotate(-80deg);
 }
 
@@ -330,15 +381,15 @@ body {
   width: 270px;
   height: 120px;
   right: 400px;
-  bottom: 100px;
+  bottom: 150px;
   transform: rotate(-65deg);
 }
 
 /* 左下蠟印 */
 .img03 {
   position: absolute;
-  left: 400px;
-  bottom: 85px;
+  left: 410px;
+  bottom: 130px;
 }
 
 /* 右上飛機 */
@@ -346,7 +397,7 @@ body {
   position: absolute;
   width: 300px;
   height: 250px;
-  top: 130px;
+  top: 120px;
   right: 320px;
   transform: rotate(8deg);
 }
@@ -366,14 +417,50 @@ body {
   position: absolute;
   width: 120px;
   height: 100px;
-  bottom: 170px;
+  bottom: 240px;
   right: 385px;
   transform: rotate(35deg);
 }
 
+@media (max-width: 1023px) {
+  .img01 {
+    width: 170px;
+    height: 180px;
+    top: 48%;
+    left: 65%;
+  }
+  .img02 {
+    width: 230px;
+    height: 100px;
+    left: 45px;
+    top: 150px;
+    transform: rotate(-65deg);
+  }
+  .img02-1 {
+    width: 230px;
+    height: 100px;
+    right: 70px;
+    bottom: 170px;
+  }
+  .img03 {
+    left: 100px;
+    bottom: 160px;
+  }
+  .img04 {
+    width: 250px;
+    height: 200px;
+    top: 140px;
+    right: 55px;
+  }
+  .img05 {
+    display: none;
+  }
+  .img06 {
+    display: none;
+  }
+}
 footer {
   display: inline-block;
-  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
