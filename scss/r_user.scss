@@ -132,9 +132,7 @@ a {
 /* reset end */
 
 
-/* 首頁區 */
 #topbar {
-
   position: fixed;
   top: 0;
   left: 0;
@@ -143,13 +141,21 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
+  padding: 20px 50px;
 
   .logo {
-    width: 238px;
-    height: 76px;
-    margin: 0 20px;
+
+    display: flex;
+    position: relative;
+
+
+    img {
+      width: 100px;
+      position: absolute;
+      left: -45px;
+      top: -65px;
+
+    }
   }
 
   .navigation {
@@ -159,7 +165,9 @@ a {
 
     .menu {
       display: flex;
-      padding: 0 200px;
+      padding: 0 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
 
       a {
         margin: 15px;
@@ -169,14 +177,15 @@ a {
         text-shadow: 0 0 2px rgba(255, 255, 255, 0.3);
 
         &:hover {
-            color: #00ff88;
-            border-bottom: 2px solid transparent;
+          color: #ffcc00;
+          border-bottom: 2px solid transparent;
         }
       }
 
     }
   }
 }
+
 
 main {
 
@@ -317,20 +326,19 @@ main {
 
 
 
+/* 頁尾區 */
 footer {
-
-
   display: inline-block;
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
   bottom: 0px;
-  background-color: #E2CA9E;
+  /* background-color: #E2CA9E; */
   width: 100%;
   height: 65px;
-
-
+  
   letter-spacing: 3px;
-  color: #000;
-}
+  color: #464646;
+  
+  }
